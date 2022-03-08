@@ -163,3 +163,50 @@ img {
     margin-top: 8rem;
   }
 }
+
+/*  <= 400 px */
+
+@media  screen and (max-width:480px) {
+  .main-header{
+    font-size: 3.3rem;
+    margin-top: 9.5rem;
+  }
+
+  .image-1{
+    display: none;  
+  }
+  .img .image-4{
+    top: 61%;
+    right: -7%;
+    transform: scale(0.7);
+    
+  }
+  .img .image-2{
+    transform: scale(0.9);
+    top: 13%;
+    right: -0.5%;
+  }
+  .image-3{
+    left: 8%;
+    top: 14%;
+  }
+  
+  .img .image-5{
+   display: none;
+  }
+  .image-6{
+    display: none;    
+  }
+  .description{
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  button{
+    font-size: 1.25rem;
+  }
+  a{
+    margin-top: 12rem;
+    width: 60%;
+  }
+}
