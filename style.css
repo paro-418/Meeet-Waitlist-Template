@@ -1,3 +1,5 @@
+/* <= 1176px (1176 x 786 screen size) */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -105,3 +107,59 @@ img {
   right: 41%;
 }
 
+
+/* <= 640 px screen size    (640 x 800) */
+
+@media screen and (max-width: 640px) {
+  section {
+    width: 90%;
+    /* border: 2px solid red; */
+    margin-top: 1.8rem;
+  }
+
+  .main-header {
+    line-height: 1.2;
+    font-size: 4.8rem;
+    margin: 11rem 0rem 0rem 0rem;
+  }
+  .img img {
+    bottom: 0px;
+    transform: scale(0.8);
+  }
+  .image-1 {
+    right: 6%;
+    top: 28%;
+  }
+  .image-2 {
+    right: 2.8%;
+    top: 1.8%;
+  }
+  .image-3 {
+    top: 9%;
+    left: 4%;
+  }
+  .image-4 {
+    right: 2%;
+  }
+  .image-5 {
+    top: 21.5%;
+    left: 53%;
+  }
+  .image-6 {
+    right: 16%;
+    top: 46%;
+  }
+
+  .description {
+    width: 65%;
+  }
+
+  button {
+    padding: 1.2rem 2.3rem;
+  }
+  a {
+    margin-left: -0.5rem;
+    width: 40%;
+    margin-top: 8rem;
+  }
+}
