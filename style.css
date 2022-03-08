@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  background-color: #013243;
+  height: 100vh;
+  border: 1px solid white;
+  z-index: -10;
+}
+section {
+  color: #32f5c8;
+  width: 75%;
+  margin: auto auto;
+  margin: 3rem auto 0rem auto;
+}
+.logo {
+  transform: scale(0.9);
+}
+.main-header {
+  font-family: "Sen", sans-serif;
+  font-size: 7rem;
+  line-height: 7.5rem;
+  margin: 4rem 0rem 0rem 0rem;
+}
+h1 span {
+  position: relative;
+  z-index: -5;
+  top: 0;
+}
+.description {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  width: 40%;
+  color: #b9b7b7;
+  margin: 1.8rem 0rem 0rem 0rem;
+}
+button {
+  font-family: "Inter", sans-serif;
+  background-color: #32f5c8;
+  display: block;
+  padding: 2% 2.5%;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+  color: #013243;
+  margin: 2rem 0rem 0rem 0rem;
+  font-weight: bold;
+}
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #b9b7b7;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  width: 27%;
+  margin: 3rem 0rem 0rem -1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:focus {
+  outline: none;
+}
+a svg {
+  transform: scale(0.8);
+  margin-right: 0.2rem;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  transform: scale(0.9);
+}
+
+.image-1 {
+  top: 40%;
+  right: 14.3%;
+}
+.image-2 {
+  top: 5%;
+  right: 12%;
+}
+.image-3 {
+  top: 15%;
+  left: 4.5%;
+}
+.image-4 {
+  right: 17%;
+  bottom: 6%;
+}
+.image-5 {
+  top: 12%;
+  right: 29%;
+}
+.image-6 {
+  transform: scale(0.8);
+  top: 41.5%;
+  right: 41%;
+}
+
